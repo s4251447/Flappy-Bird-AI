@@ -2,8 +2,8 @@
 
 An AI that teaches itself to play Flappy Bird. It uses **NEAT** (NeuroEvolution of Augmenting Topologies) to evolve a population of neural networks, with **Pygame** handling the game and graphics. No human input and no training data are needed: the birds start out knowing nothing, and each generation gets a little better at surviving.
 
-<!-- Add a screenshot or GIF of the game running here, e.g.:
-![Gameplay demo](demo.gif)
+<img width="495" height="796" alt="flappybirdimg" src="https://github.com/user-attachments/assets/8e67d08d-4fa0-4c9f-a4da-5382f1d1da04" />
+
 -->
 
 ## Table of Contents
@@ -88,7 +88,7 @@ Flappy-Bird-AI/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/Flappy-Bird-AI.git
+   git clone https://github.com/s4251447/Flappy-Bird-AI.git
    cd Flappy-Bird-AI
    ```
 
@@ -175,11 +175,7 @@ Raise the value in `clock.tick(...)`, or lower `pop_size` in the config.
 - Try different inputs, such as horizontal distance to the pipe or the bird's velocity
 
 ## Acknowledgements
-
+- This project follows [Tech With Tim's Flappy Bird AI tutorial series](https://www.youtube.com/watch?v=NPbHUyVDYDw&list=PLzMcBGfZo4-lwGZWXz5Qgta_YNX3_vLS2&index=8) on YouTube. His original code is at [techwithtim/NEAT-Flappy-Bird](https://github.com/techwithtim/NEAT-Flappy-Bird).
 - [NEAT-Python](https://neat-python.readthedocs.io/) for the NEAT implementation
 - [Pygame](https://www.pygame.org/) for the game engine
 - Original NEAT paper: Stanley & Miikkulainen, *Evolving Neural Networks through Augmenting Topologies* (2002)
-
-## License
-
-Add your license here (for example MIT), or delete this section.
